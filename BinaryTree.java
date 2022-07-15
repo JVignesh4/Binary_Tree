@@ -4,6 +4,9 @@ public class BinaryTree<K extends Comparable<K>> {
 
     private Node<K> root;
 
+    /* created function to add values
+    Adding values recursively to the binary tree
+     */
     private Node<K> addRecursively(Node<K> current, K key) {
 
         if (current == null) {
@@ -34,6 +37,7 @@ public class BinaryTree<K extends Comparable<K>> {
         return this.getSizeRecursively(root);
     }
 
+    //Created function for Print the Binary Tree
     public void printBinaryTree() {
         System.out.println("My Tree: " + root);
     }
