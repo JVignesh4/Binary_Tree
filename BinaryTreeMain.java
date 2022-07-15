@@ -2,7 +2,6 @@ package com.BinaryTree;
 
 public class BinaryTreeMain {
     public static void main(String[] args) {
-
         System.out.println("------ Welcome to Data Structure : Binary Search Tree ------");
 
         BinaryTree<Integer> myBinaryTree = new BinaryTree<Integer>();
